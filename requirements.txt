@@ -1,0 +1,6 @@
+pandas>=2.0
+requests
+matplotlib
+seaborn
+openpyxl  # для сохранения в Excel
+pytest      # для тестирования
