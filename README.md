@@ -32,28 +32,3 @@
 | Openpyxl       | Сохранение в Excel               |
 | Pytest         | Тестирование                     |
 
-
-##  Структура
-
-sales_data_pipeline/
-│
-├── data/ # сырые и обработанные данные
-│ ├── raw/
-│ └── processed/
-│
-├── src/ # основной код
-│ ├── extract.py # извлечение данных
-│ ├── transform.py # очистка и преобразование
-│ ├── load.py # загрузка
-│ ├── visualize.py # визуализация
-│ └── logger.py # логирование
-│
-├── config/
-│ └── settings.py # пути и настройки
-│
-├── tests/ # тесты
-├── reports/ # графики и отчёты
-├── logs/ # логи выполнения
-├── Makefile # удобные команды
-├── run_pipeline.sh # скрипт запуска
-└── requirements.txt # зависимости 
