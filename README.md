@@ -56,4 +56,4 @@ sales_data_pipeline/
 ├── logs/ # логи выполнения
 ├── Makefile # удобные команды
 ├── run_pipeline.sh # скрипт запуска
-└── requirements.txt # зависимости
+└── requirements.txt # зависимости 
